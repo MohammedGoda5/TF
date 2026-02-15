@@ -6,10 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import testPages.LCPage;
-import testPages.LGPage;
-import testPages.HomePage;
-import testPages.LoginPage;
+import testPages.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +19,7 @@ public class BaseTest {
     protected HomePage homePage;
     protected LGPage lgPage;
     protected LCPage lcPage;
+    protected DCPage dcPage;
 
 
     @BeforeClass
